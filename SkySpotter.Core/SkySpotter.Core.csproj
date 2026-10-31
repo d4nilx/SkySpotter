@@ -7,16 +7,6 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Interfaces\" />
-      <Folder Include="Models\" />
-      <Folder Include="Services\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <ProjectReference Include="..\SkySpotter.CLI\SkySpotter.CLI.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="MetadataExtractor" Version="2.9.3" />
     </ItemGroup>
 
